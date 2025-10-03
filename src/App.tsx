@@ -12,7 +12,7 @@ import {
 import { Button } from "@/components/ui/button";
 import CameraCapture from "./components/CamCapture";
 
-const API_URL = "/api/products";
+const API_URL = "https://fakestoreapi.com/products";
 
 const ProductList: React.FC = () => {
   const [products, setProducts] = useState<Product[]>([]);
